@@ -1,0 +1,112 @@
+/* Moderne typografi og layout */
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #f4f4f9;
+  min-height: 100vh;
+}
+
+/* Form styling */
+form {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  margin-right: 10px;
+}
+
+/* Label styling */
+label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+/* Input and textarea styling */
+input[type="text"],
+input[type="password"],
+textarea,
+input[type="email"],
+select {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: #fafafa;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+  border-color: #007bff;
+  background-color: #fff;
+  outline: none;
+}
+
+/* Button styling */
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Flex container for form sections */
+.form-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.form-section > div {
+  flex: 1 1 calc(50% - 20px);
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+/* Inline styles for welcome header */
+.header h2 {
+  font-size: 24px;
+  color: #333;
+  margin: 0;
+}
+
+.header a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
